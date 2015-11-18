@@ -29,7 +29,7 @@ public class AlbumAdapter extends BaseAdapter {
         File file = new File(path);
         File[] files=file.listFiles();
         for(int i=0;i<files.length;i++){
-            if(files[i].isFile()){ // 디렉토리가 아니라 파일이라면
+            if(files[i].isFile()){ // 디렉토리가 아니라 파일이라면ㅎㅎ
                 BitmapFactory.Options options=new BitmapFactory.Options();
                 options.inSampleSize=16;
                 Matrix matrix = new Matrix();
